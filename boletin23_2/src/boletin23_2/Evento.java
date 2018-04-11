@@ -44,10 +44,12 @@ public class Evento implements ActionListener
     public void actionPerformed(ActionEvent e)
     {
         Object boton=e.getSource();
-        if(boton==programacion)
-        panel.setName("Programacion");
+        if(boton==programacion){
+        marco.setTitle("Programacion");
+         
+        }
         else 
-           panel.setName("bases");
+           marco.setTitle("bases");
     }
     
 }
