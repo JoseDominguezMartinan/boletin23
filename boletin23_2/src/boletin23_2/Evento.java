@@ -46,7 +46,6 @@ public class Evento implements ActionListener
         Object boton=e.getSource();
         if(boton==programacion){
         marco.setTitle("Programacion");
-         
         }
         else 
            marco.setTitle("bases");
